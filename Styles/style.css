@@ -308,11 +308,11 @@ header {
 
 
 .email_border {
-    width: 809px;
+    width: 509px;
+height: 200px;
 
-    height: 200px;
 
-    margin: auto;
+    margin: 30px 0px 30px 600px;
 
     padding: 76px 190px;
 
@@ -334,9 +334,7 @@ header {
     outline: none;
 }
 
-.email_border input::placeholder {
-    padding: 10px;
-}
+
 
 .updates {
     text-align: center;
@@ -351,15 +349,20 @@ header {
     padding: 10px;
     border-radius: 0;
     
-        padding: 11.5px 20px;
-        background: #ff5959;
-        color: #ffffff;
-        font-weight: 600;
-        font-size: 20px;
-        border: none;
-        margin-left: 5px;
+     
       
 }
+.primary_btn{
+    padding: 11.5px 20px;
+    background: #ff5959;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-left: 5px;
+}
+
+
 
 
 
@@ -375,13 +378,15 @@ footer {
     text-align: center;
 }
 
-.footer_ending img {
-    width: 158px;
-    margin-top: 43px;
-    margin-bottom: 24px;
+.last-logo {
+
+    padding-top:50px;
+font-weight: 400;
+font-size: 36px;
+color: #FF5959;
 }
 
 .footer_ending p {
     color: #d9dbe1;
-    padding-bottom: 24px;
+    padding-bottom: 50px;
 }
