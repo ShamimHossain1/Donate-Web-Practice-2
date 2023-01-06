@@ -23,7 +23,7 @@ header {
    padding: 175px 300px;
 }
 .h-title{
-    margin: 0px 150px 20px 150px;
+    margin: 0px 145px 20px 145px;
     font-weight: 1000;
 font-size: 85px;
 line-height: 99px;
@@ -56,4 +56,161 @@ color: #FFFFFF;
 /* Donate Taka */
 .tk-dnt{
     text-align: center;
+}
+.dt-title{
+    font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+margin-top: 132px;
+margin-bottom: 30px;
+}
+.dt-des{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+
+text-align: center;
+
+color: #707070;
+padding: 0px 575px 50px 575px;
+
+}
+
+.dt-tk{
+    display: flex;
+ justify-content: center;
+  
+ list-style: none;
+ gap: 25px;
+ padding-bottom: 97px;
+
+   
+    
+
+}
+.btn-dt{
+    padding: 22px 44px;
+    border: none;
+   
+
+    
+}
+
+.btn-dt:focus{
+    border: 2.5px solid rgba(17, 17, 255, 0.753);
+    display: block;
+    background-color: rgba(17, 17, 255, 0.051);
+
+}
+.btn-sum{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #707070;
+}
+#dt-text{
+    border: none;
+    text-align: center;
+    height: 50px;
+    outline: none;
+    font-size:xx-large;
+    font-weight:  800;
+    color: #707070;
+    margin-bottom: 15px;
+    }
+
+.hr-line{
+       margin: 0px 600px 0px 600px;
+
+    }
+
+    /* Donate Plan  */
+
+.dnt-p > .p-title, .p-des{
+       
+        text-align: center;
+}
+.p-title{
+ 
+    margin: 120px 0px 20px 0px;
+    font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+
+}
+.p-des{
+  
+    margin: 0px 0px 50px 0px;
+    
+color: #707070;
+
+  
+}
+.p-ser{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 0px 300px
+    ;
+
+}
+.p-item{
+    width: 360px;
+height: 232px;
+
+
+background: rgba(79, 157, 166, 0.1);
+border-radius: 5px;
+padding: 55px 26px;
+
+}
+.p-item2{
+    width: 360px;
+height: 232px;
+
+
+background: rgba(255, 89, 89, 0.1);
+border-radius: 5px;
+padding: 55px 26px;
+
+}
+.p-item3{
+    width: 360px;
+height: 232px;
+
+
+background: #FFF4D6;;
+border-radius: 5px;
+padding: 55px 26px;
+
+}
+.icon{
+    width: 58.13px;
+height: 49.77px;
+left: 180px;
+top: 1659px;
+}
+.i-ti{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+margin-top: 32px;
+margin-bottom: 16px;
+
+
+color: #121212;
+
+}
+.i-des{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #707070;
+padding: 0px;
 }
